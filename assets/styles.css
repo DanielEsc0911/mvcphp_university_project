@@ -1,0 +1,180 @@
+html {
+    font-family: 'Century Gothic', 'Trebuchet MS', sans-serif;
+    background: url(img/img.jpg) rgb(168, 48, 48);
+    background-size: cover;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+body {
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: rgb(7, 7, 7);
+}
+
+h1 {
+    text-shadow: 2px 2px rgba(17, 17, 17, 0.876);
+    color: whitesmoke;
+    background: linear-gradient(to bottom right, rgba(27, 27, 27, 0.657), rgba(65, 65, 65, 0.657), rgba(250, 55, 55, 0.692));
+    font-style: normal;
+    font-size: 50px;
+    padding: 0px 0px 10px 0px;
+    margin: 0px auto 15px auto;
+    border-radius: 0px 30px 0px 30px;
+    border: 10px black;
+}
+
+h2 {
+    margin-top: 0px;
+    text-shadow: 1px 1px rgba(47, 47, 47, 0.876);
+}
+
+hr {
+    border: 2px solid rgb(26, 26, 26);
+}
+
+table {
+    border-collapse: collapse;
+    border: rgba(26, 26, 26, 0.863);
+}
+
+td,
+th {
+    text-shadow: 1px 1px rgba(17, 17, 17, 0.876);
+    color: whitesmoke;
+    padding: 2px;
+    vertical-align: top;
+    background-color: rgb(39, 39, 39);
+}
+
+.table-border {
+    background: rgb(39, 39, 39);
+    padding: 12px 12px 12px 12px;
+    border-radius: 0px 30px 0px 30px;
+}
+
+#red-text {
+    color: rgb(216, 62, 62)
+}
+
+a {
+    color: #00b93e;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #008516;
+    text-decoration: none;
+    outline: none;
+    background: none;
+}
+
+.confirm-button {
+    background: #00b93e;
+    padding-right: 8px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.confirm-button-b {
+    background: #00b93e;
+    border-radius: 0px 10px 0px 10px;
+}
+
+.confirm-button:hover {
+    color: rgba(245, 245, 245, 0.609);
+    background: #008516;
+    outline: none;
+}
+
+.confirm-button-b:hover {
+    color: rgba(245, 245, 245, 0.609);
+    background: #008516;
+    outline: none;
+}
+
+.danger-text {
+    color: rgb(216, 62, 62);
+    text-decoration: none
+}
+
+.danger-text:hover {
+    color: rgb(151, 42, 42);
+    text-decoration: none;
+    outline: none;
+}
+
+.danger-button {
+    padding-left: 8px;
+    border-radius: 10px 0px 0px 10px;
+    background: rgb(216, 62, 62);
+}
+
+.danger-button:hover {
+    color: rgba(245, 245, 245, 0.609);
+    background: rgb(151, 42, 42);
+    outline: none;
+}
+
+.LR {
+    text-shadow: 2px 2px rgba(17, 17, 17, 0.876);
+    display: flex;
+    justify-content: center;
+}
+
+.button-right {
+    color: whitesmoke;
+    margin: 8px 0px 8px 0px;
+    padding: 8px 12px 8px 6px;
+    border-radius: 0px 10px 10px 0px;
+    background-color: rgb(39, 39, 39);
+}
+
+.button-left {
+    color: whitesmoke;
+    margin: 8px 0px 8px 0px;
+    padding: 8px 6px 8px 12px;
+    border-radius: 10px 0px 0px 10px;
+    background-color: rgb(39, 39, 39);
+}
+
+fieldset {
+    color: whitesmoke;
+    background: rgb(39, 39, 39);
+    border-collapse: collapse;
+    border: 0px rgb(39, 39, 39);
+    border-radius: 0px 25px 0px 25px;
+}
+
+form {
+    font-family: 'Century Gotic', 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    text-shadow: 2px 2px rgba(17, 17, 17, 0.876);
+    background: rgb(39, 39, 39);
+    border: 0px;
+}
+
+button {
+    padding: 5px;
+    color: whitesmoke;
+    font-family: 'Century Gotic', 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-shadow: 1px 1px rgba(17, 17, 17, 0.876);
+    border: 2px solid rgba(17, 17, 17, 0.876);
+}
+
+select,
+input {
+    font-family: 'Century Gotic', 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-shadow: 1px 1px rgba(202, 202, 202, 0.876);
+    border-radius: 0px 10px 10px 0px;
+    border-style: 0px unset;
+    padding: 4px;
+}
+
+select,
+input:focus {
+    outline: none;
+}
